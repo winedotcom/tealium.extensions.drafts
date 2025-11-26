@@ -2,6 +2,28 @@ if (window.ccpaShareAnalytics && typeof window.pipViewAnalytics === 'undefined')
     if (b['meta.pageType'] === 'Product Detail') {
         window.pipViewAnalytics = true;
         
+        /* 2025 11 26 3:10pm I uploaded this from a linked GITHUB file, to a draft in Tealium. 
+           I will now move this updated code (added this comment block) to Github
+           Steps:
+            1. In Github open the file
+            2. In the "Code" panel, click Editor dropdown top right
+            3. Choose "OPen with... github.dev" to open Githubs online editor
+            4. If you get popup "the extension "Github Repositories' want to signin using Github'
+            5. Click Allow
+            6. Choose account to sign in with. I chose my personal Github account, verified as ok to do by Matt Lucero
+            7. The editor opens
+            8. Copy this files code in Tealium Draft Editor
+            9. Paste it into the Github dev Editor
+            ---
+            10. Now I am in the github dev editor
+            11. Cmd S to save, but it may autosave. There is no "Save" button
+            12. I clicked the ... menu top right, below the layout icons, and chose "Close Saved".
+            13. This closes this editor
+            14. Nothing has saved yet, this is still draft
+            
+           
+        */
+        
         // This FE fn returns adobeArrays plus several other data
         const collectionModelFunction = window.view && window.view.model ? window.view.model.getTrackingProductData : undefined;
         
